@@ -77,6 +77,8 @@ O coração da lógica reside no método *protected leak* que analisa o "tabulei
 
 - Vários métodos foram implementados para ilustrar algumas funcionalidades secundárias da classe.
 - Apesar de implementar diversos testes de sanidade, é possível acrescentar ainda mais análises, tornando a classe mais resistente.
-- *Testes unitários* podem ser implementados facilmente a partir do PHPUnit, o que faria mais sentido em um projeto do mundo real.
+- *Testes unitários* podem ser implementados facilmente a partir do **PHPUnit**, o que faria mais sentido em um projeto do mundo real.
 - Incluí um arquivo chamado ```basiccase.txt``` contendo o caso inicial da descrição da atividade, cujo resultado esperado é **36**.
+- Seria ideal (caso eu tivesse mais tempo) incluir a infraestrutura **Docker** para executar esta aplicação de forma conteinerizada, indepentende do ambiente hospedeiro.
+- Outro bom exercício seria implementar a solução sob a forma de uma **API**. Neste caso, eu escolheria o Lumen como o framework.
 - Detalhes da atividade foram suprimidos a pedido do autor.
